@@ -1,6 +1,10 @@
 # Smart-Almirah-with-Fingerprint-and-Digital-locker
 Security of valuables is as paramount as their acquisition. In this present day when armed robbery has gotten more sophisticated particularly in developing countries, there is the need for tighter security means, and one of the most secured technologies that can be employed is biometrics, finger print door lock to be precise. This project includes a smart and affordable Almirah door lock enhanced with a fingerprint interface. The fingerprint sensor will be integrated in the Almirah’s door panel. The fingerprint sensor will take the fingerprint of the user and forward it to the microcontroller to match with its records. If the print matches with one of the fingerprints of the microcontroller’s memory, the microcontroller will lock or unlock the door of Almirah. If the fingerprint is not matched to the microcontroller, the buzzer will buzz and the user will have to try again.
 
+
+## 	PROPOSED MODEL
+
+
 ### A. Components
 
  We used ArduinoUno which is an open-source microcontroller board based on the Microchip At
@@ -25,3 +29,24 @@ For hardware implementation, we have made a box of three containers. There is tw
 
 We kept our prototype straightforward. At first, the user will give his/her fingerprint and system will match it with database. If the fingerprint mismatched, the bugger will make noise. Otherwise it will unlock the door according to the individual’s matched fingerprints portion. To lock the door back, user need to give their finger again. If anyone tries with wrong fingerprint five times, the system will notify the user through a message in their mobile. If any intruder or robber tries to break the lock or try to open the door without correct fingerprint, then the system will notify the user so that the user can take action immediately. The user can keep eighteen fingerprints in database to open the door. With correct fingerprint one user can not open others door in our prototype.
 
+## EXPERIMENTAL ANALYSIS
+
+The experimental analysis has been done in three steps.   Input shows the inputs of the system and the security process, system test is to show how effectively users can pick up or hold an object.
+
+### A.	Inputs
+
+For one side we use two fingerprints. So for two portions we used four finger print. Alignment is used to check whether the door is open or off.   In status of door, we used HIGH for lock and LOW for unlock. The system will check alignment (during lock alignment will be 0 and when it is open it will be 1) and door status. If alignment gives HIGH output during door status HIGH (lock status) for 5 times it will send notification. We have used GSM module for sending message to the user. Whether the door is open or off.   In status of door, we used HIGH for lock and LOW for unlock. The system will check alignment (during lock alignment will be 0 and when it is open it will be 1) and door status. If alignment gives HIGH output during door status HIGH (lock status) for 5 times it will send notification. We have used GSM module for sending message to the user.
+
+
+### B.	System Test 
+
+Servo motor use to lock and open the door , maximum move 95 degrees  . A fingerprint scanner is a type of technology that identifies and authenticates the fingerprints of an individual. We use here 3 Arduino for taking input, giving output.  A buck converter (step-down converter) is a DC-to-DC power converter which steps down voltage (while stepping up current) from its input (supply) to its output (load). For developing IOT we use SIM900A module.
+
+### C.	Limitations of the system
+
+Though the whole system has reached the goal it has some limitations. First of all, in our system if human’s skin rises then the fingerprint scanner will not work as it will not detect the accurate person.  Besides if someone holds the fingerprint scanner in wet hand it will not identify the person. Though these are some lacking of our system they are essential as they are helping us to identify valid human who have fingerprint input in the fingerprint scanner.
+
+
+### D.	Future Work:
+
+We have many innovative ideas with this system. Due to lack of time we could not work out with a plan that is all clothes will displayed in a screen so that we can easily choose our dress without opening the door of the Almirah. It will be more time effective. We also want to work with knowing number of dress without opening the Almirah. So if we get any sponsorship we an enhanced our system in large sector.
