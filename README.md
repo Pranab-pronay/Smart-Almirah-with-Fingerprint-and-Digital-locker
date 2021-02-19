@@ -25,7 +25,7 @@ For hardware implementation, we have made a box of three containers. There is tw
 
 ![](images/3.jpg)
 
-## D.	Working Process Of The Model
+### D.	Working Process Of The Model
 
 We kept our prototype straightforward. At first, the user will give his/her fingerprint and system will match it with database. If the fingerprint mismatched, the bugger will make noise. Otherwise it will unlock the door according to the individual’s matched fingerprints portion. To lock the door back, user need to give their finger again. If anyone tries with wrong fingerprint five times, the system will notify the user through a message in their mobile. If any intruder or robber tries to break the lock or try to open the door without correct fingerprint, then the system will notify the user so that the user can take action immediately. The user can keep eighteen fingerprints in database to open the door. With correct fingerprint one user can not open others door in our prototype.
 
