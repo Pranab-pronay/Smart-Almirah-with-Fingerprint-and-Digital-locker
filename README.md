@@ -1,4 +1,4 @@
-# Smart-Almirah-with-Fingerprint-and-Digital-locker
+# Smart Almirah with Fingerprint and Digital locker
 Security of valuables is as paramount as their acquisition. In this present day when armed robbery has gotten more sophisticated particularly in developing countries, there is the need for tighter security means, and one of the most secured technologies that can be employed is biometrics, finger print door lock to be precise. This project includes a smart and affordable Almirah door lock enhanced with a fingerprint interface. The fingerprint sensor will be integrated in the Almirah’s door panel. The fingerprint sensor will take the fingerprint of the user and forward it to the microcontroller to match with its records. If the print matches with one of the fingerprints of the microcontroller’s memory, the microcontroller will lock or unlock the door of Almirah. If the fingerprint is not matched to the microcontroller, the buzzer will buzz and the user will have to try again.
 
 
